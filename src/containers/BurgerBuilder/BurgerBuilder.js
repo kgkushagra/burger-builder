@@ -107,7 +107,7 @@ class BurgerBuilder extends Component{
                     price={this.state.totalPrice}
                     ordered={this.purchaseHandler}
                     />
-                <div>Controls</div>
+                {/* <div>Controls</div> */}
             </Aux>
         );
     }
